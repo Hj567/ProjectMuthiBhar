@@ -938,6 +938,12 @@ z-index: 1;
 
 @media only screen and (max-width: 414px) {
 
+
+html,body{
+
+	overflow-x:hidden; 
+}
+
 .homeSection1{
 
 	width: 414px;
