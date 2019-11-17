@@ -967,7 +967,7 @@ z-index: 1;
 	border: solid 10px #FFFFFF;
 	padding: 20px;
 	position: relative;
-	transform: translateY(-200px);
+	transform: translateY(-220px);
 	left: 20px;
 }
 
@@ -982,12 +982,13 @@ z-index: 1;
 	padding-right: 10%;
 	font-size: 13px;
 	font-family:Yuanti SC;
-	transform: translateY(-250px);
+	transform: translateY(-270px);
 	text-align: center;
 	color: #FFFFFF;
 	width: 65%;
 	right: 30px;
 	position: absolute;
+
 }
 
 .mainText{
@@ -1028,7 +1029,7 @@ z-index: 1;
 .button p:nth-child(2){
 
 	background-color: #FF1744;
-transform: translateY(-165.5px);
+transform: translateY(-210px);
 padding-left: 85px;
 	
 }
@@ -1465,7 +1466,7 @@ top: 75%;
 .formContainer{
 
 margin-top: 150px;
-margin-left: 45px;
+margin-left: 40px;
 font-family: Yuanti SC;
 font-size: 12px;
 
