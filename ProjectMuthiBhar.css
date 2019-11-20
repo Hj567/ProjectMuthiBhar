@@ -2020,6 +2020,24 @@ transform: translateY(-48px);
 
 }
 
+.teamSection4 {
+    position: absolute;
+    left: 0px;
+}
+
+.compNumber {
+    transform: translateY(-123px);
+    position: absolute;
+    left: 230px;
+    width: 1000px;
+}
+
+.mainTextContainer p:nth-child(2) {
+    transform: translateX(-300px);
+    width: 125px;
+    text-align: center;
+    position: absolute;
+}
 
 }
 
