@@ -24,6 +24,8 @@
 
 <section class="homeSection1"> 
 
+
+
 <div class="sectionNav">
 	
 	<ul class="navUL">
@@ -37,6 +39,21 @@
 
 	</ul>
 
+</div>
+
+<div class="bg-modal">
+  <div class="modal-contents">
+
+<video width="500" height="300" controls>
+  
+  <source src="Apple.mp4" type="video/mp4">
+
+  </video>
+
+    <div class="close">+</div>
+   
+
+  </div>
 </div>
 
 <div class="imgFist fadeIn animated" style="animation-delay: .1s; animation-duration: 2s;" >
@@ -53,7 +70,7 @@
 
 <div class="button fadeIn animated"> 
 
-<p class="type1">Learn More</p>
+<p class="type1" id="button">Learn More</p>
 <p class="type2">Contribute</p>
 
 </div>
@@ -345,6 +362,14 @@
     AOS.init({
 
     });
+
+    document.getElementById('button').addEventListener("click", function() {
+  document.querySelector('.bg-modal').style.display = "flex";
+});
+
+document.querySelector('.close').addEventListener("click", function() {
+  document.querySelector('.bg-modal').style.display = "none";
+});
 
 
   </script>
