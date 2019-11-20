@@ -86,6 +86,7 @@ ul li a{
 	margin-right: 10%;
 	animation-delay: 1s;
 
+
 }
 
 
@@ -99,6 +100,12 @@ ul li a{
 	font-family: Yuanti SC;
 	color: #FFFFFF;
 	margin-left: 20px;
+
+}
+
+.button a{
+	text-decoration: none;
+	color: white;
 }
 
 .button p:nth-child(1){
@@ -109,6 +116,7 @@ ul li a{
 .button p:nth-child(2){
 
 	background-color: #FF1744;
+
 }
 
 .timelineSection2{
