@@ -26,6 +26,7 @@
 
 
 
+
 <div class="sectionNav">
 	
 	<ul class="navUL">
@@ -64,7 +65,8 @@
 
 <div class="mainText fadeInDown animated"> 
 
-<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+<p> Learning from the Indian Cultures, which has a strong bend towards helping those in need, this initiative aims to help the less fortunate that find it difficult to secure food for their families after a day of strenuous labour.  This project aims to act as a middle men, simply delivering the excess from the more fortunate to those in need, in a bid to raise their standard of living
+ </p>
 
 </div>
 
@@ -74,6 +76,8 @@
 <p class="type2"><a href="#contributeSection3">Contribute</a></p>
 
 </div>
+
+
 
 </section>
 
@@ -175,11 +179,11 @@
 
             <ul class="compMain">
           
-<li class="active1"><p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p></li>
+<li class="active1"><p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">The food that we produce today statistically has the capacity to feed 10 billion people (1.5 times the current population), yet millions sleep with an empty stomach every night. When you sign up with this initiative you will be provided with a vessel that you would keep with you for a month.</p></li>
 
-<li class="active2"><p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> </li>
+<li class="active2"><p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">For the entirety of the month you will put aside a fistful of raw rice/pulses/grains (The ration you choose below) in the vessel provided, before preparing food for your own family. The completely filled vessel would be collected by one of our volunteers at the end of the month. </p> </li>
 
-<li class="active3"><p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> </li>
+<li class="active3"><p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">Your contribution to the program would help feed not only your family but your excess will help feed a family less unfortunate than yours. The ration collected would be cleaned, repackaged and distributed to charities which specialise in feeding those in need.</p> </li>
 
         </ul>
 
@@ -260,6 +264,19 @@
 <div>
 
   <p class="titleOurTeam" data-aos="fade-up">OUR TEAM</p>
+
+
+</div>
+
+<div class="stickyButtonHome">
+  
+  <div class="callButton" id="callButton">
+    
+    <p>DONATE</p>
+
+
+  </div>
+
 
 
 </div>
@@ -347,14 +364,69 @@
 </div>
 
 
-
-
-
-
-
-
 </section>
 
+
+<section class="donateSection" id="donateSection"> 
+
+<div class="wrapper">
+
+  <p class="mainDonateText">DONATE</p>
+
+<div class="pricing-wrapper">
+  
+<div class="priceItem">
+  
+<h3>Rs.500</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur.</p>
+<button class="btn">Donate Now</button>
+
+
+</div>
+
+<div class="priceItem">
+  
+<h3>Rs.1000</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur.</p>
+<button class="btn">Donate Now</button>
+
+  
+</div>
+
+<div class="priceItem">
+  
+
+<h3>Rs.1500</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur.</p>
+<button class="btn">Donate Now</button>
+
+
+  
+</div>
+
+ <div class="close2">+</div>
+
+</div>
+
+
+
+
+
+</div>
+
+</section>
 
 
  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -372,6 +444,13 @@ document.querySelector('.close').addEventListener("click", function() {
   document.querySelector('.bg-modal').style.display = "none";
 });
 
+document.getElementById('callButton').addEventListener("click", function() {
+  document.querySelector('.donateSection').style.display = "block";
+});
+
+document.querySelector('.close2').addEventListener("click", function() {
+  document.querySelector('.donateSection').style.display = "none";
+});
 
   </script>
 

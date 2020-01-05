@@ -52,7 +52,7 @@ ul li a{
 	border: solid 15px #FFFFFF;
 	padding: 20px;
 	position: relative;
-	
+	transform: translateY(-10px);
 }
 
 .imgFirst{
@@ -62,14 +62,14 @@ ul li a{
 
 .mainText p{
 
-	padding-left: 45%;
+	padding-left: 45.5%;
 	padding-right: 10%;
-	font-size: 28px;
+	font-size: 25px;
 	font-family:Yuanti SC;
-	transform: translateY(-195%);
+	transform: translateY(-190%);
 	text-align: justify;
 	color: #FFFFFF;
-	
+	line-height: 38px;
 
 }
 
@@ -81,7 +81,7 @@ ul li a{
 
 .button{
 
-	transform: translateY(-500px);
+	transform: translateY(-530px);
 	float: right;
 	margin-right: 10%;
 	animation-delay: 1s;
@@ -349,6 +349,7 @@ width:500px;
 position: absolute;
 top: 450px;
 transform: translateX(-180px);
+z-index: -1;
 
 }
 
@@ -366,6 +367,7 @@ width:400px;
 	position: absolute;
 top: 600px;
 transform: translateX(80px);
+z-index: -1;
 
 }
 
@@ -990,6 +992,165 @@ top: 110%;
 	align-content: center;
 }
 
+.donateSection{
+
+	height: 750px;
+	width: 100%;
+	transform: translateY(1550px);
+	background-color: #1F1E1E;
+	position: absolute;
+	color: white;
+	position: absolute;
+	overflow: hidden;
+	opacity: 0.98;
+	display: none;
+
+
+
+
+}
+
+.close2 {
+	
+	position: absolute;
+	font-size: 50px;
+	color: #FFFFFF;
+	transform: rotate(45deg);
+	cursor: pointer;
+	left: 50%;
+	color: white;
+top: 110%;
+
+}
+
+.wrapper{
+
+	transform: translateY(150px);
+
+
+
+}
+
+
+.wrapper>h1{
+font-family: Yuanti SC;
+font-weight: lighter;
+letter-spacing: 3px;
+font-size: 30px;
+text-align: center;
+font-size: 30px;
+
+
+}
+
+.wrapper h1 + p {
+
+	font-family: Yuanti SC;
+	width: 65%;
+	text-align: center;
+	margin: 0 auto 20px;
+
+}
+
+.wrapper h3{
+
+font-family: Yuanti SC;
+font-size: 40px;
+
+
+}
+
+.pricing-wrapper{
+
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	transform: translateY(-480px);
+}
+
+.priceItem{
+
+	margin:5px 40px;
+	width: 300px;
+	font-family: Yuanti SC;
+	padding: 20px 30px 50px;
+	border: solid 1px #FFFFFF;
+
+}
+
+.priceItem p{
+
+	font-size: 15px;
+	margin-top: 0px;
+	transform: translateY(-30px);
+}
+
+.btn{
+
+	background-color: transparent;
+	width: 200px;
+	height:40px;
+	transition: 0.1s ease-in;
+	font-size: 15px;
+	font-family: Yuanti SC;
+	border-radius: 30px;
+	background-image: linear-gradient(125deg,#3498db,#9b59b6);
+	border:none;
+	color: white;
+
+}
+
+.btn:hover{
+
+	transform: scale(1.02);
+	background-image: linear-gradient(125deg,#3498db,#9b59b6);
+	border:none;
+	color: white;
+}
+
+
+	
+
+
+.mainDonateText{
+
+font-family: Futura;
+	font-size: 140px;
+	color: white;
+	position: relative;
+	text-align: center;
+	letter-spacing: 20px;
+	opacity: 0.4;
+
+}
+
+
+.callButton{
+position: absolute;
+z-index: 10000;
+height: 150px;
+width: 40px;
+background-color: #1F1E1E;
+color: black;
+writing-mode: vertical-lr;
+  text-orientation: upright;
+ vertical-align: middle;
+ transform: translateY(-70px);
+ cursor: pointer;
+
+
+}
+
+.callButton p{
+
+	color: white;
+	text-align:center;
+	margin: 10px 10px;
+	font-family: Yuanti SC;
+}
+
+
 @font-face{
 	font-family: BebasNeue;
 	src:url(Font/BebasNeue.otf);
@@ -1009,6 +1170,8 @@ top: 110%;
 }
 
 @media only screen and (max-width: 1200px) {
+
+
 
 
 .button p {
@@ -1105,7 +1268,7 @@ top: 110%;
 }
 
 .active3 {
-    transform: translateX(-210px);
+    transform: translateX(-350px);
     width: 180px;
 }
 
@@ -1153,6 +1316,36 @@ top: 110%;
 
 @media only screen and (max-width: 414px) {
 
+.donateSection{
+
+	height: 1650px;
+	width: 100%;
+	transform: translateY(1480px);
+	background-color: #1F1E1E;
+	position: absolute;
+	color: white;
+	position: absolute;
+	overflow: hidden;
+	display: none;
+
+
+
+
+}
+
+.mainDonateText{
+
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  margin: 20px auto;
+
+}
+
+.pricing-wrapper{
+
+	transform: translateY(-1340px);
+}
+
 
 .homeSection1{
 
@@ -1195,15 +1388,16 @@ top: 110%;
 .mainText p{
 
 	padding-left: 45%;
-	padding-right: 10%;
+	padding-right: 6%;
 	font-size: 13px;
 	font-family:Yuanti SC;
-	transform: translateY(-270px);
+	transform: translateY(-285px);
 	text-align: center;
 	color: #FFFFFF;
-	width: 65%;
+	width: 75%;
 	right: 30px;
 	position: absolute;
+	line-height: 18px;
 
 }
 
@@ -1217,7 +1411,8 @@ top: 110%;
 
 	margin-right: 10%;
 	animation-delay: 1s;
-	transform: translateX(6px);
+	transform: translateY(10px);
+	margin-left: 7.5px;
 	
 
 }
@@ -1497,6 +1692,7 @@ width: 100%;
 height:945px;
 position: absolute;
 overflow-x: hidden;
+z-index: -1;
 
 }
 
@@ -1681,6 +1877,7 @@ position: absolute;
 transform: translateX(-243px);
 opacity: 0.95;
 top: 75%;
+z-index: -1;
 }
 
 .formContainer{
@@ -2078,7 +2275,26 @@ transform: translateY(-48px);
     position: absolute;
 }
 
+
+.close2{
+
+	top: 1505px;
 }
+
+.callButton{
+
+	width: 30px;
+
+}
+
+.callButton p{
+
+	margin-left: 3px;
+}
+
+
+}
+
 
 
 
