@@ -1067,6 +1067,7 @@ font-size: 40px;
 	text-align: center;
 	flex-wrap: wrap;
 	transform: translateY(-480px);
+	align-items: center;
 }
 
 .priceItem{
@@ -1319,13 +1320,13 @@ color: black;
 .donateSection{
 
 	height: 1650px;
-	width: 100%;
-	transform: translateY(1623px);
+	width: 375px;
+	transform: translateY(1480px);
 	background-color: #1F1E1E;
 	position: absolute;
 	color: white;
 	position: absolute;
-	overflow: hidden;
+	overflow-x: hidden;
 	display: none;
 
 
@@ -1343,13 +1344,13 @@ color: black;
 
 .pricing-wrapper{
 
-	transform: translateY(-1340px);
+	transform: translateY(-1240px);
 }
 
 
 .homeSection1{
 
-	width: 414px;
+	width: 375px;
 	height: 100vh;
 	overflow: hidden;
 	background-image: url(poor.png);
@@ -1424,7 +1425,7 @@ color: black;
 	padding-right: 90px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	font-size: 30px;
+	font-size: 28px;
 	font-family: Yuanti SC;
 	color: #FFFFFF;
 	
@@ -2278,7 +2279,7 @@ transform: translateY(-48px);
 
 .close2{
 
-	top: 1505px;
+	top: 1550px;
 }
 
 .callButton{
