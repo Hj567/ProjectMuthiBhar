@@ -2285,6 +2285,9 @@ transform: translateY(-48px);
 .callButton{
 
 	width: 30px;
+	position: absolute;
+	top: 100px;
+	left:0px;
 
 }
 
