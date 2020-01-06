@@ -1321,7 +1321,7 @@ color: black;
 
 	height: 1650px;
 	width: 375px;
-	transform: translateY(1700px);
+	transform: translateY(1650px);
 	background-color: #1F1E1E;
 	position: absolute;
 	color: white;
@@ -1344,7 +1344,7 @@ color: black;
 
 .pricing-wrapper{
 
-	transform: translateY(-1040px);
+	transform: translateY(-1140px);
 }
 
 
