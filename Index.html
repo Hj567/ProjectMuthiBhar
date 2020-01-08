@@ -432,6 +432,15 @@ cillum dolore eu fugiat nulla pariatur.</p>
  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
  
   <script>
+
+const mq = window.matchMedia( "(min-width: 414px)" );
+
+if (mq.matches) {
+       alert("Please view the website in Landscape mode for the best user experience");
+} else {
+     alert("Please view the website in Portrait mode for the best user experience");
+}
+
     AOS.init({
 
     });
@@ -451,6 +460,10 @@ document.getElementById('callButton').addEventListener("click", function() {
 document.querySelector('.close2').addEventListener("click", function() {
   document.querySelector('.donateSection').style.display = "none";
 });
+
+
+
+
 
   </script>
 
