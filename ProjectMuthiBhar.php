@@ -1,46 +1,36 @@
 <?php
 
-  		$name =  $_POST['Name'];
+$con = mysqli_connect("localhost", "root", "root");
+
+if (!$con) {
+  echo 'Not Connected';
+}
+
+if (!mysqli_select_db($con,'project')) {
+  echo "database not selected";
+
+}
+
+        $name =  $_POST['Name'];
         $email =  $_POST['eMail'];
         $phonenumber =  $_POST['phoneNumber'];
         $address =  $_POST['Adress'];
         $food =  $_POST['foodType'];
 
-if (!empty($name) || !empty($email) || !empty($phonenumber) || !empty($address) || !empty($food)) {
- $host = "localhost";
-    $dbUsername = "root";
-    $dbPassword = "root";
-    $dbname = "project";
-    //create connection
-    $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
-    if (mysqli_connect_error()) {
-     die('Connect Error('. mysqli_connect_errno().')'. mysqli_connect_error());
-    } else {
-     $SELECT = "SELECT email From InformationTable1 Where email = ? Limit 1";
-     $INSERT = "INSERT Into InformationTable1 (Name, Email, PhoneNumber, Address, Food) values(?, ?, ?, ?, ?)";
-     //Prepare statement
-     $stmt = $conn->prepare($SELECT);
-     $stmt->bind_param("s", $email);
-     $stmt->execute();
-     $stmt->bind_result($email);
-     $stmt->store_result();
-     $rnum = $stmt->num_rows;
-     if ($rnum==0) {
-      $stmt->close();
-      $stmt = $conn->prepare($INSERT);
-      $stmt->bind_param("ssssii", $name, $email, $phonenumber, $address, $food);
-      $stmt->execute();
-      echo "New record inserted sucessfully";
-     } else {
-      echo "Someone already register using this email";
-     }
-     $stmt->close();
-     $conn->close();
-    }
-} else {
- echo "All field are required";
- die();
+$sql = "INSERT INTO InformationTable1 (Name,Email,PhoneNumber,Address,Food) VALUES ('$name', '$email','$phonenumber','$address','$food')";
+
+if (!mysqli_query($con,$sql)) {
+  echo "not inserted";
+} else{
+  echo "Inserted";
 }
 
+header("refresh:1; url:index.html")
 
 ?>
+        
+
+
+
+
+
