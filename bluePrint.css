@@ -43,6 +43,27 @@ button a{
 	color: white;
 }
 
+
+
+@font-face{
+	font-family: BebasNeue;
+	src:url(Font/BebasNeue.otf);
+	font-style: normal;
+}
+
+@font-face{
+	font-family: Yuanti SC;
+	src:url(Font/YuantiSC.ttf);
+	font-style: normal;
+}
+
+@font-face{
+	font-family: Simplifica;
+	src:url(Font/SIMPLIFICA.ttf);
+	font-style: normal;
+}
+
+
 @media only screen and (max-width: 414px) {
 
 
