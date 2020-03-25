@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.mainText{
+	display: flex;
+	justify-content: center;
+}
+
+p{
+text-align: justify;
+	font-family: Yuanti SC;
+	font-size: 15px;
+	width: 600px;
+	padding-top: 50px;
+
+}
+
+.buttonContainer{
+
+	display: flex;
+	justify-content: center;
+}
+
+button{
+
+	height: 40px;
+	width:200px;
+	border-radius: 5px;
+	margin-top: 10px;
+	background-color: #2196f3;
+	border:none;
+	color: white;
+	margin-bottom: 50px;
+	font-size: 13px;
+
+}
+
+button a{
+
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (max-width: 414px) {
+
+
+
+.mainText{
+	display: flex;
+	justify-content: center;
+}
+
+p{
+text-align: justify;
+	font-family: Yuanti SC;
+	font-size: 15px;
+	width: 300px;
+	padding-top: 50px;
+
+}
+
+.buttonContainer{
+
+	display: flex;
+	justify-content: center;
+}
+
+button{
+
+	height: 40px;
+	width:200px;
+	border-radius: 5px;
+	margin-top: 10px;
+	background-color: #2196f3;
+	border:none;
+	color: white;
+	margin-bottom: 50px;
+	font-size: 13px;
+
+}
+
+
+
+
+
+	}

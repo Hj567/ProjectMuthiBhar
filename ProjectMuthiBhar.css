@@ -125,99 +125,64 @@ ul li a{
 	width: 100%;
 	overflow: hidden;
 	position: absolute;
+z-index: 10000000;
 
 
 }
 
-.containerProgress{
+.containerText{
 
-	margin-top: 3%;
-	position: relative;
-	margin-left: 2.5%;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto; 
+	transform: translateY(50px);
+	text-align: center;
 
-}
-
-
-
-.containerProgress div{
-
-	display: inline-block;
-	margin: 10%;
-	position: relative;
-	width: 900px;
 
 
 }
 
+.imageContainer img{
 
-
-.circle:nth-child(1){
-
-	height: 55px;
-	width: 55px;
-	border:solid 5px #454545;
-	border-radius: 50%;
-	bottom: 10px;
-	background-color: #FFFFFF;
-
-}
-
-.circle:nth-child(4){
-
-	height: 55px;
-	width: 55px;
-	border:solid 5px #454545;
-	border-radius: 50%;
-	bottom: 10px;
-	background-color: #FFFFFF;
-
-}
-
-
-.circle:nth-child(2){
-
-	height: 35px;
-	width: 35px;
-	border:solid 5px #FF1744;
-	border-radius: 50%;
-	bottom:20px;
-	background-color: #FFFFFF;
-	
-}
-
-.circle:nth-child(3){
-
-	height: 35px;
-	width: 35px;
-	border:solid 5px #FF1744;
-	border-radius: 50%;
-	bottom:20px;
-	background-color: #FFFFFF;
-}
-
-
-
-.circle:nth-child(-n+3)::after{
-
-	content: '';
-	width: 340px;
-	border:solid 5px #FFB817;
+	height: 300px;
 	position: absolute;
-	display: block;
-	top: 10px;
-	z-index: -1;
-
-	
+	transform: translateX(-600px);
 
 }
 
-.circle:nth-child(1):after{
+.bluePrint{
+	width: 600px;
+	font-family: Yuanti SC;
+	position: absolute;
+}
 
+.bluePrint p{
+	text-align: justify;
+	font-size: 12px;
+	margin-top: 20px;
 
-	top: 20px;
+}
 
-	
+.bluePrint>h1{
+	text-transform:uppercase; 
+	text-align: center;
+	letter-spacing: 10px;
+}
 
+.bluePrint button a{
+
+	text-decoration: none;
+	color: white;
+}
+
+.bluePrint > button{
+
+	height: 40px;
+	width:200px;
+	border-radius: 5px;
+	margin-top: 10px;
+	background-color: #2196f3;
+	border:none;
 }
 
 .datesContainer{
@@ -226,6 +191,8 @@ ul li a{
 	padding-right: 100px;
 
 }
+
+
 
 .datesContainer p{
 	
@@ -1210,14 +1177,59 @@ color: black;
     width: 50%;
 }
 
-.circle:nth-child(4) {
-    height: 55px;
-    width: 55px;
-    border: solid 5px #454545;
-    border-radius: 50%;
-    bottom: 10px;
-    left: 10px;
-    background-color: #FFFFFF;
+.containerText{
+
+	display: flex;
+	justify-content: center;
+	margin: 0 auto; 
+	transform: translateY(50px);
+	text-align: center;
+
+
+
+}
+
+.imageContainer img{
+
+	height: 300px;
+	position: absolute;
+	transform: translateX(-500px);
+
+}
+
+.bluePrint{
+	width: 600px;
+	font-family: Yuanti SC;
+	position: absolute;
+}
+
+.bluePrint p{
+	text-align: justify;
+	font-size: 12px;
+	margin-top: 20px;
+
+}
+
+.bluePrint>h1{
+	text-transform:uppercase; 
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+.bluePrint button a{
+
+	text-decoration: none;
+	color: white;
+}
+
+.bluePrint > button{
+
+	height: 40px;
+	width:200px;
+	border-radius: 5px;
+	margin-top: 10px;
+	background-color: #2196f3;
+	border:none;
 }
 
 .mainTextContainer p:nth-child(1) {
@@ -1517,106 +1529,62 @@ padding-left: 85px;
 
 }
 
+.containerText{
+
+	display: flex;
+	justify-content: center;
+	margin: 0 auto; 
+	transform: translateY(50px);
+	text-align: center;
 
 
-.circle:nth-child(1){
 
-	height: 55px;
-	width: 55px;
-	border:solid 2px #454545;
-	border-radius: 50%;
-	bottom: 10px;
-	background-color: #FFFFFF;
+}
+
+.imageContainer img{
+
+	height: 300px;
 	position: absolute;
-	transform: translateY(65px);
-left: 30%;
+	transform: translateX(-600px);
 
 }
 
-.circle:nth-child(4){
-
-	height: 55px;
-	width: 55px;
-	border:solid 2px #454545;
-	border-radius: 50%;
-	bottom: 10px;
-	background-color: #FFFFFF;
-position: absolute;
-transform: translateY(470px);
-left: 30%;
-
-
-}
-
-
-.circle:nth-child(2){
-
-	height: 35px;
-	width: 35px;
-	border:solid 2px #FF1744;
-	border-radius: 50%;
-	bottom:20px;
-	background-color: #FFFFFF;
+.bluePrint{
+	width: 300px;
+	font-family: Yuanti SC;
 	position: absolute;
-	transform: translateY(207.5px);
-left: 32%;
-
-	
 }
 
-.circle:nth-child(3){
-
-	height: 35px;
-	width: 35px;
-	border:solid 2px #FF1744;
-	border-radius: 50%;
-	bottom:20px;
-	background-color: #FFFFFF;
-	position: absolute;
-	transform: translateY(320.5px);
-left: 32%;
-}
-
-
-
-.circle:nth-child(-n+3)::after{
-
-	content: '';
-	width: 100px;
-	border:solid 2px #FFB817;
-	position: absolute;
-	display: block;
-	top: 10px;
-	z-index: -1;
-	transform: rotate(90deg);
-
-	
+.bluePrint p{
+	text-align: justify;
+	font-size: 10px;
+	margin-top: 20px;
 
 }
 
-.circle:nth-child(1):after{
+.bluePrint>h1{
+	text-transform:uppercase; 
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+.bluePrint button a{
+
+	text-decoration: none;
+	color: white;
+}
+
+.bluePrint > button{
+
+	height: 40px;
+	width:200px;
+	border-radius: 5px;
+	margin-top: 10px;
+	background-color: #2196f3;
+	border:none;
+}
 
 
-	top: 107px;
-	left: -25px;
-
-	}
-
-	.circle:nth-child(2):after{
-
-
-	top: 86px;
-	left: -32px;
-
-	}
-
-	.circle:nth-child(3):after{
-
-
-	top: 86px;
-	left: -32px;
-
-	}
 
 .datesContainer{
 	position: absolute;
