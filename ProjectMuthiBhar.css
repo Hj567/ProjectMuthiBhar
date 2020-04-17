@@ -26,6 +26,9 @@ ul{
 	margin-right: 100px;
 	margin-top: 65px;
 
+	
+
+
 }
 
 ul li{
@@ -55,9 +58,11 @@ ul li a{
 	transform: translateY(-10px);
 }
 
+
 .imgFirst{
 
 	-webkit-animation-delay: 0.3s;
+
 }
 
 .mainText p{
@@ -138,15 +143,16 @@ z-index: 10000000;
 	transform: translateY(50px);
 	text-align: center;
 
-
-
 }
+
+
 
 .imageContainer img{
 
 	height: 300px;
 	position: absolute;
 	transform: translateX(-600px);
+
 
 }
 
