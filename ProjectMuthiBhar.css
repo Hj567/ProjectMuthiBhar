@@ -1458,7 +1458,7 @@ left: 67%;
     color: #FFFFFF;
     width: 80%;
     line-height: 18px;
-    top: 290px;
+    top: 295px;
 
 }
 
@@ -1496,7 +1496,7 @@ left: 67%;
 .button p:nth-child(1){
 
 	background-color: #FFB817;
-	transform: translateY(-150px);
+	transform: translateY(-135px);
 
 	
 }
@@ -1504,7 +1504,7 @@ left: 67%;
 .button p:nth-child(2){
 
 	background-color: #FF1744;
-transform: translateY(-210px);
+transform: translateY(-190px);
 padding-left: 85px;
 	
 }
