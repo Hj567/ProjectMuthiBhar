@@ -1149,7 +1149,9 @@ color: black;
 	font-style: normal;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
+
+
 
 .button{
 	
@@ -1202,7 +1204,7 @@ left: 67%;
 
 .imageContainer img{
 
-	height: 300px;
+	height: 200px;
 	position: absolute;
 	transform: translateX(-500px);
 
