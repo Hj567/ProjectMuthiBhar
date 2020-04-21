@@ -921,11 +921,13 @@ z-index: 1;
 .logoImages img:nth-child(1){
 
 	margin-left: 43%;
+	
 }
 
 .logoImages img:nth-child(3){
 
 	margin-left: 65%;
+
 }
 
 .bg-modal {
