@@ -430,12 +430,12 @@ cillum dolore eu fugiat nulla pariatur.</p>
  
   <script>
 
-const mq = window.matchMedia( "(min-width: 414px)" );
+const mq = window.matchMedia( "(max-width: 414px)" );
 
 if (mq.matches) {
-       alert("Please view the website in Landscape mode for the best user experience");
+       alert("Please view the website in Portrait mode for the best user experience");
 } else {
-     alert("Please view the website in Portrait mode for the best user experience");
+     alert("Please view the website in Landscape mode for the best user experience");
 }
 
     AOS.init({
